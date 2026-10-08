@@ -36,6 +36,10 @@ convert the shifter, pedals and part of the coding.
 - `reports/Mk6 Jetta CDVC VR6 swap parts.md`: the parts-compatibility report for a 3.6 VR6 +
   Mk4 24V 02M into a 2015–2018 GLI, with part numbers, sources, a BLV-vs-CDVB engine
   decision and a staged shopping/verification list. Raw notes in `research_notes/`.
+- `reports/Audi A3 8V VR6 swap parts.md`: the same study for a 2015–2020 Audi A3 8V (MQB)
+  with an Atlas 3.6. Verdict: no precedent, no OEM parts set, custom AWD driveline and an
+  ECU calibration nobody sells; ~CA$30,000–56,000 net for a car slower than a stock S3.
+  Build the Jetta, or buy an S3 if AWD matters more than the VR6.
 
 ## Problems to solve
 
