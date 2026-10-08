@@ -10,13 +10,16 @@ Kijiji, AutoTrader and salvage auctions (Copart, IAA) for local prices before bu
 1. **Base car: Mk6 Jetta GLI with DSG (2012–2018).** It already has the DSG shifter,
    PRNDS dash coding, the gear readout and the right pedal box. It also has the
    multilink rear suspension and bigger brakes, which you want with a VR6.
-2. **Donor: a wrecked FWD NMS Passat V6 (2012–2018, 3.6 VR6 code CDVC + 02E 6-speed DSG).**
-   Buy the whole car, not parts. The engine, DSG, engine computer, harness, keys and cluster
-   are all matched, which makes coding much easier.
-   *Decision 2026-10-08:* CDVC/NMS over the B6 Passat BLV that Ninety4co used, because the
-   NMS Passat and the Mk6 Jetta share the same 2011 electrical generation (ECU family,
-   gateway, body electrics). The BLV route is documented in `research/`; the CDVC route
-   is what we are researching.
+2. **Donor engine: a 3.6 VR6 from a wrecked Passat.** Two candidates, compared in
+   `reports/Mk6 Jetta CDVC VR6 swap parts.md`:
+   - **BLV** (2006–2010 B6 Passat, Bosch MED9): the engine Ninety4co used; the only one
+     with off-the-shelf manual swap tunes. **Current recommendation.**
+   - **CDVB** (2012–2018 NMS Passat, Bosch MED17; we first mislabelled it "CDVC", which is
+     the Atlas code): newer, same electrical generation as the Mk6 Jetta, but DSG-only from
+     the factory and no tuner yet sells a manual swap file for it. Flip to it only with a
+     written tuner quote in hand, or if the car stays DSG.
+   Buy the whole donor car, not parts: engine, gearbox, ECU, harness, fuse box, keys and
+   cluster all matched.
 3. **Drive the GLI stock first.** Do the swap later, when you have the money, space
    and time. The car will be off the road for weeks to months.
 
@@ -30,6 +33,9 @@ convert the shifter, pedals and part of the coding.
   and what transfers to a Mk6 Jetta.
 - `research/sources/`: his swap parts list (with VW part numbers) and wiring re-pin sheet.
 - `research/transcripts/`: timestamped transcripts of the episodes.
+- `reports/Mk6 Jetta CDVC VR6 swap parts.md`: the parts-compatibility report for a 3.6 VR6 +
+  Mk4 24V 02M into a 2015–2018 GLI, with part numbers, sources, a BLV-vs-CDVB engine
+  decision and a staged shopping/verification list. Raw notes in `research_notes/`.
 
 ## Problems to solve
 

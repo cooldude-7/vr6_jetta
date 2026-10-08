@@ -122,7 +122,7 @@ Chapters: 1:14 tuning updates; 2:04 partnership and mounts; 3:58 project conclus
 1. **Transverse VR6 mounting points are a PQ35 standard.** The Mk5 R32, Eos 3.2 and Mk2 TT 3.2 all put a VR6 into this engine bay from the factory. The BLV uses the same engine-mount bracket geometry, so a PQ35 VR6 mount (1K0 199 262 AR) bolts straight on.
 2. **The 02M is a PQ34/PQ35 crossover.** Its trans-mount pattern matches the PQ35 2.5L 5-speed/09G mount (1K0 199 555 AP) in the Mk4-sourced 2-bolt form, and the stock Mk6 dogbone, shift box, cables and manual axles all mate to it.
 3. **The BLV's exhaust manifolds mimic the Mk5 R32's**, so R32 downpipes are the starting point, with massaging.
-4. **The B6 Passat is the closest cousin.** His argument for the BLV over other 3.6 variants (B7/NMS Passat and CC CDVC, Touareg longitudinal units, Atlas): the B6 is PQ46, the sibling platform of PQ35, so the ECU generation, fuse box family and harness style are nearest to the Mk5/6. (Earlier in our chat I suggested a 2012–2018 NMS Passat donor. That is a CDVC 3.6 in a different body; the engine is still transverse, but the harness, ECU and accessories need to be checked against Choby's BLV findings before assuming the same parts.)
+4. **The B6 Passat is the closest cousin.** His argument for the BLV over other 3.6 variants (B7/NMS Passat and CC CDVB, Touareg longitudinal units, Atlas): the B6 is PQ46, the sibling platform of PQ35, so the ECU generation, fuse box family and harness style are nearest to the Mk5/6. (Earlier in our chat I suggested a 2012–2018 NMS Passat donor. That is a CDVB 3.6 in a different body (we first called it CDVB; that is the Atlas code); the engine is still transverse, but the harness, ECU and accessories need to be checked against Choby's BLV findings before assuming the same parts.)
 5. **Everything that did not bolt on was small**: one A/C line, downpipe massaging, bay bracket trimming for appearance, and wiring.
 
 ## 4. What actually had to change (the wiring)
@@ -201,7 +201,7 @@ His car is a Mk6 **Golf** GTI (PQ35). Ours is a Mk6 **Jetta** (2011–2018, NCS/
 ## 8. How this changes our plan
 
 - The series proves the **manual 02M route** is bolt-on mechanically and cheap on the gearbox side ($400 box, ~$1,000 clutch). Our earlier plan was a DSG GLI plus a wrecked Passat's DSG. Both are viable; the manual route has a documented parts list, the DSG route does not (yet).
-- **Engine choice:** he argues BLV (2006–2010 B6 Passat). Our earlier donor idea was a 2012–2018 NMS Passat (CDVC). Decide this before anything else; it changes the ECU, harness and fuse box research.
+- **Engine choice:** he argues BLV (2006–2010 B6 Passat). Our earlier donor idea was a 2012–2018 NMS Passat (CDVB). Decide this before anything else; it changes the ECU, harness and fuse box research.
 - **Add to the rebuild scope:** rod and main bearings, oil pump pickup inspection, and the updated oil pump sprocket and bolt. His bearing failure is the cautionary tale.
 - **Wiring is the real work.** Plan on factory wiring diagrams for both the Jetta and the donor, a junkyard VR6 "high" fuse box with its harness tail, and a weekend per circuit group.
 - **Budget the small fit items up front:** A/C suction line, downpipe fabrication, mounts, fuel module, seals.
