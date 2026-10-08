@@ -10,9 +10,13 @@ Kijiji, AutoTrader and salvage auctions (Copart, IAA) for local prices before bu
 1. **Base car: Mk6 Jetta GLI with DSG (2012–2018).** It already has the DSG shifter,
    PRNDS dash coding, the gear readout and the right pedal box. It also has the
    multilink rear suspension and bigger brakes, which you want with a VR6.
-2. **Donor: a wrecked FWD Passat V6 (2012–2018, 3.6 VR6 + 6-speed DSG).** Buy the
-   whole car, not parts. The engine, DSG, engine computer, harness, keys and cluster
+2. **Donor: a wrecked FWD NMS Passat V6 (2012–2018, 3.6 VR6 code CDVC + 02E 6-speed DSG).**
+   Buy the whole car, not parts. The engine, DSG, engine computer, harness, keys and cluster
    are all matched, which makes coding much easier.
+   *Decision 2026-10-08:* CDVC/NMS over the B6 Passat BLV that Ninety4co used, because the
+   NMS Passat and the Mk6 Jetta share the same 2011 electrical generation (ECU family,
+   gateway, body electrics). The BLV route is documented in `research/`; the CDVC route
+   is what we are researching.
 3. **Drive the GLI stock first.** Do the swap later, when you have the money, space
    and time. The car will be off the road for weeks to months.
 
