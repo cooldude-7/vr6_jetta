@@ -19,6 +19,14 @@ Kijiji, AutoTrader and salvage auctions (Copart, IAA) for local prices before bu
 A non-DSG Jetta (manual or Aisin automatic) works too, but you would also have to
 convert the shifter, pedals and part of the coding.
 
+## Research
+
+- `research/ninety4co-vr6-mk6-swap-series.md`: deep analysis of Ninety4co's five-part
+  *VR6 MK6 Swap* series (3.6 BLV + manual 02M into a Mk6 GTI), what broke afterwards,
+  and what transfers to a Mk6 Jetta.
+- `research/sources/`: his swap parts list (with VW part numbers) and wiring re-pin sheet.
+- `research/transcripts/`: timestamped transcripts of the episodes.
+
 ## Problems to solve
 
 - [ ] **Immobilizer.** The Passat engine computer is paired to the Passat keys.
