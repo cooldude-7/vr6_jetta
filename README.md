@@ -54,32 +54,42 @@ convert the shifter, pedals and part of the coding.
 
 ## Cost estimate (CAD)
 
-### Cars
+Updated 2026-10-08 from Ninety4co's cost video (his receipts, USD, 2023–24) and the parts
+report. Exchange assumed ≈ 1.37; HST and shipping on US-sourced parts added at ~15–20%.
+Plan: manual 2015–2018 GLI + BLV + Mk4 24V 02M, DIY labour.
+
+### Ninety4co's actual numbers (USD)
+
+| Item | Cost |
+| --- | ---: |
+| Junkyard BLV (171k mi) with harness, ECU, alternator, A/C compressor | 300 |
+| Mk4 24V 02M with steel forks | 440 |
+| Rebuild parts: FCP Euro, UroTuning (incl. South Bend clutch), dealer (incl. hoses) | ~5,400 |
+| Head machining 350, Gray Fab swirl pot 300, Schimmel parts 475, exhaust 520, misc ~970 | ~2,600 |
+| Non-swap items in his total (bay paint, fenders, battery relocation, trunk, lights) | ~1,570 |
+| **Raw receipts** | **10,262** |
+| Parts sold (2.0T engine + 02Q + clutch 3,000, K04 650, intakes, cage, hood, …) | −6,095 |
+| **Out of pocket** | **4,127** |
+
+Not in his total: USP downpipes (traded, ~800), BFI mounts (sponsored, ~330–670), the tune
+(never priced), and wholesale discounts. Swap-only at retail ≈ 10,000 USD.
+
+### Our build
 
 | Item | Low | High |
 | --- | ---: | ---: |
-| Mk6 GLI with DSG | 8,000 | 15,000 |
-| Wrecked FWD Passat V6 donor | 2,000 | 5,000 |
+| 2015–2018 GLI, manual | 13,000 | 20,000 |
+| Donor: B6 BLV (scarce) or NMS CDVB (1,700–2,500 salvage) | 1,500 | 4,000 |
+| Rebuild + chassis + cooling + A/C + exhaust parts (his ~10k USD retail) | 11,000 | 14,000 |
+| Added scope: rod/main bearings, custom A/C discharge line, custom midpipe, Jetta radiator | 1,200 | 2,500 |
+| Tune + immo-off + erWin diagrams + VCDS | 1,200 | 2,500 |
+| HST / shipping / duty on US parts | 1,800 | 3,000 |
+| **Swap subtotal** | **~15,000** | **~22,000** |
+| Optional Wavetrac LSD | +1,600 | +1,800 |
+| **All-in before resale** | **~30,000** | **~46,000** |
+| Resale: GLI 2.0T + 02Q + accessories, donor leftovers | −4,000 | −6,500 |
+| **Net, DIY** | **~25,000** | **~40,000** |
+| Shop labour instead of DIY | +10,000 | +15,000 |
 
-2012–2014 GLIs sit at the low end, 2015–2018 at the high end.
-
-### Swap
-
-| Item | Low | High |
-| --- | ---: | ---: |
-| Timing chains, gaskets, water pump, plugs (before install) | 1,000 | 2,000 |
-| Mounts, axles, adapter parts | 800 | 2,000 |
-| Exhaust adaptation | 500 | 1,500 |
-| Tune with immobilizer delete | 800 | 2,000 |
-| Coding tool (OBDeleven or VCDS) | 150 | 600 |
-| Fluids, DSG service, small parts | 500 | 1,000 |
-| **Swap subtotal** | **~4,000** | **~9,000** |
-
-### Totals
-
-| | Low | High |
-| --- | ---: | ---: |
-| All-in (both cars + swap) | 12,000 | 25,000 |
-| Resale of leftovers (GLI 2.0T, unused Passat parts) | −2,000 | −5,000 |
-| **Net, DIY** | **~10,000** | **~20,000** |
-| Extra if a shop does the labour | +6,000 | +12,000 |
+The engine and gearbox are the cheap part (~1,000 together). The rebuild parts, the newer
+GLI, and the software and paperwork are the cost. Tell the insurer before the first drive.
