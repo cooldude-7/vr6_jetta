@@ -39,7 +39,11 @@ convert the shifter, pedals and part of the coding.
 - `reports/Audi A3 8V VR6 swap parts.md`: the same study for a 2015–2020 Audi A3 8V (MQB)
   with an Atlas 3.6. Verdict: no precedent, no OEM parts set, custom AWD driveline and an
   ECU calibration nobody sells; ~CA$30,000–56,000 net for a car slower than a stock S3.
-  Build the Jetta, or buy an S3 if AWD matters more than the VR6.
+  Build the Jetta, or buy an S3 if AWD matters more than the VR6. Partly superseded by:
+- `reports/Audi A3 8V VR6 with stock gearbox.md`: follow-up after finding real 8V VR6 builds
+  (TuneZilla's S3, Malaka's RS3). Stock-power plan: Atlas 3.6 + its own ECU on the A3 quattro's
+  own 6-speed DSG via a 4WD VR6 DSG bellhousing (likely, unproven), ~CA$10,100–24,000 net
+  excluding the car. Cost list in `research/a3-stock-power-vr6-cost-estimate.md`.
 
 ## Problems to solve
 
