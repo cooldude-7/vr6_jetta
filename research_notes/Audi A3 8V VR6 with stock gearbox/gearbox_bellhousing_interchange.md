@@ -8,6 +8,98 @@ Access notes: oemwolf.com has no pages for 02E/0D9/0GC/0BH/0DL 301 107 (all retu
 
 ---
 
+## Headline question: the exact parts for a stock 3.2/3.6 VR6 on the A3/S3 8V quattro's own 6-speed DQ250 (0D9), via a VR6 02E bellhousing (front case) plus a VR6 DSG dual-mass flywheel
+
+### Takeaway
+**Feasible, with one precedent, but it is a gearbox-rebuild job, not a bolt-on.** In May 2021, VRSociety reported Dewain (@dmods480) running "an MKV R32 DSG bell housing on the factory MK7 DSG with an APR tuned TCU and a custom TZ Engineering dual mass flywheel" in a Mk7 Golf R, behind a Chinese 2.5T DDKA VR6. The Mk7 Golf R's factory DSG before the DQ381 change is the 6-speed DQ250, and an R32 bell only fits the DQ250 family.
+
+On the DQ250 the "bellhousing" is the front half of the gearbox case, **02E 301 107** ("front housing / bell housing / clutch housing"). It carries bearing bores and comes in a separate **4WD** version. So the job is:
+- split the A3's 0D9;
+- move its gearsets, differential, clutch pack, mechatronic, rear housing (02E 301 103 family) and angle drive onto a **4WD VR6 02E front case**;
+- re-shim (end-play rings 02E 398 321);
+- fit the **VR6 DSG DMF 022 105 266 AH** (Audi A3/TT 3.2) **/ 022 105 266 AK** (VW R32 / CC / Eos / Passat 3.2 and 3.6), LuK **415 0755 09**.
+
+For stock power the torque is fine on paper: DQ250 "Maximum 350 Nm (depending on engine)" (SSP 308), against about 320 Nm for the 3.2 and about 350 Nm for the 3.6.
+
+The open risks, none resolved by any source:
+1. The VR6 front-case part-number suffix, and whether 3.2 and 3.6 cases differ.
+2. Whether the VR6 4WD front case's output, differential and angle-drive faces match the 0D9 4WD internals, so that the 0D9 PTU and A3 axles really carry over. The VR6 02E uses star-flange/tripod outputs and an R32-specific diff.
+3. Whether the OEM VR6 DMF spline engages the 0D9 hub. Dewain used a *custom* DMF, but for a DDKA crank, so this is not proof either way.
+4. The starter number.
+
+**Donor rule (INFERRED):** use a **4WD** VR6 DSG front case: Mk5 R32 DSG, A3 8P 3.2 quattro S tronic, TT 8J 3.2 S tronic, or a CC/Passat 3.6 4Motion *if* it is a DSG. The NMS Passat 3.6 is FWD only, so its front case is the FWD casting and will not take the A3's angle drive.
+
+### Cited Findings
+**The precedent and the 0D9**
+- **REPORTED (VRSociety post, 2021-05-19, page opened)**: Dewain's Mk7 Golf R with a Chinese-market 2.5L VR6 Turbo (DDKA) from a Teramont, using "an MKV R32 DSG bell housing on the factory MK7 DSG", an APR-tuned TCU, and "a custom TZ Engineering dual mass flywheel" "for now". The Teramont ECU is to be tuned for the MK7 chassis. He plans to run the Teramont's DQ500 later. Instagram @dmods480. No later status found. — [VRSociety](https://vrsociety.tumblr.com/post/651662812635152384/oem-25l-vr6-turbo-in-a-mk7-golf-r-dewain-is)
+- **VERIFIED (vendor page, background)**: HPA's DQ381 VR6 program requires a "2018-2019 Golf R" with DSG. The DQ381 arrived on the Golf R with the 2018 model year, so a Mk7 Golf R *before* that has the 6-speed DQ250. — [HPA VR550T Golf R](https://www.hpamotorsports.com/pages/hpa-vr550t-2-5l-vr6-program-for-golf-r)
+- **VERIFIED (Ross-Tech)**: the 0D9 is documented for the "Mk7/MQB chassis". "Replacement of the transmission or mechatronics unit will result in P1701." So keep the A3's own 0D9 mechatronic, already paired to the car. — [Ross-Tech 0D9](https://wiki.ross-tech.com/wiki/index.php/6-Speed_Direct_Shift_Gearbox_(DSG/0D9))
+
+**Bellhousing (front case)**
+- **VERIFIED (vendor pages)**:
+  - Maktrans lists "Front case **4WD** 02E DQ250 DSG 6 02E301107" ($210) and "Case front part 4WD … **02E301107R**" (€207.90). — [maktrans](https://maktrans.net/02E4WD107)
+  - Super-Parts lists "02E301107 Gearbox housing" and "**02E301103M** Gearbox housing" (€196.48 each). Its search summary gives 02E301107 transmission codes "SYJ, SFT, SFU, RLN" (REPORTED). — [Super-Parts](https://www.super-parts.eu/02e301107-gearbox-housing-dq250-02e-dsg-6/)
+- **Conflict (REPORTED, machine-written text)**: Autoparts-24 says 02E 301 107 is catalogued for FWD 02E variants and that AWD DSG6 cases carry a 0D9 prefix. This contradicts Maktrans's 4WD 02E 301 107 listings. — [Autoparts-24](https://www.autoparts-24.com/oem/02E-301-107/)
+- **REPORTED (listing title)**: "08 Audi TT Mk2 Auto Automatic Transmission Trans Assembly 02E301107" (engine not stated). — [eBay 2112956159](https://www.ebay.com/p/2112956159)
+- **Not found**: any 02E 301 107 suffix tied to the R32, A3 3.2, TT 3.2 or 3.6.
+
+**Flywheel (drive plate / DMF)**
+- **VERIFIED (vendor page)**: DMF "415075509 / 022105266AH / 022105266AK", mapping "Audi TT, A3: 022105266AH" and "VW CC, Eos, Passat, Golf: 022105266AK". Fitment covers A3 8P 3.2 (BDB/BMJ/BUB), TT 8J/8N 3.2 (BUB/BHE/BPF/CBR), R32 Mk4/Mk5, **CC 3.6**, **Passat B6/B7 3.2/3.6**, Eos 3.2/3.6 and Superb 3.6. US $349.99. The page does not say DSG. — [FridayParts](https://www.fridayparts.com/dual-mass-flywheel-415075509-022105266ah-for-vw-cc-golf-r32-audi-a3-tt-3-2-3-6-vr6)
+- **REPORTED (titles and prices, search summaries)**:
+  - "OEM VW **DSG** Flywheel Mk5 R32 Audi A3 2.8L 3.2L Dual Mass 022105266AK". — [eBay 290689210280](https://www.ebay.com/itm/290689210280)
+  - FCP Euro "Dual Clutch Flywheel – LuK 022105266AK", $857.99. — [FCP Euro](https://www.fcpeuro.com/filters/Volkswagen-parts/Flywheel/)
+  - The manual R32 DMF is a different part (LuK DMF057). — [PartsHawk](https://partshawk.com/volkswagen-r32-clutch-flywheel-luk-dmf057.html)
+- **VERIFIED (vendor page)**: RTMG "Performance Dual Mass Flywheel for 3.2 V6 R32 Engines DQ250 02E", SKU 901-0680, €1,351.60, 8.2 kg, chromoly, "770Nm to 1200Nm"; "Only genuine OEM flywheel bolts must be used". 0D9 and 3.6 fitment not stated. — [RTMG](https://rtmgperformance.com/products/dsg-dq250-dual-mass-flywheel-for-3-2-v6-r32-engines)
+- **REPORTED (title)**: Carlicious "R32 DSG Lightweight Flywheel 3kg", "MK4 or MK5 DSG Gearbox". — [Carlicious](https://www.carlicious-parts.com/R32-DSG-Lightweight-Flywheel-3kg)
+- **VERIFIED (SSP 308 / 851403)**: the DMF's internal splines drive the input hub of the double clutch. The DMF is the only engine-specific rotating part. — [SSP 308](https://www.volkspage.net/technik/ssp/ssp/SSP_308.pdf)
+
+**Clutch pack and input shafts**
+- **VERIFIED (vendor fitment)**: the DQ250 clutch pack **02E 398 029 C** lists the A3 8V (incl. "Quattro: 2.0T"), Golf 7, TT 8S and 4-cylinder PQ cars, and **no VR6**. — [vagparts](https://vagparts.com.au/products/02e398029c-clutch-service-kit)
+- **Conflict (REPORTED)**: 02E 398 029 vs 0D9 398 029 A are claimed "not interchangeable". — [zhihu](https://www.zhihu.com/tardis/jm/art/2074298562670761525)
+- **No source** compares input shafts or K1/K2 packs between 4-cylinder and VR6 02E.
+
+**Torque**
+- **VERIFIED**: "Maximum 350 Nm (depending on engine)". — [SSP 308](https://www.volkspage.net/technik/ssp/ssp/SSP_308.pdf)
+- **VERIFIED**: TVS gives "Stock rated up to +/- 350 Nm", "engine torque up to 350-380 Nm". — [TVS DQ250](https://tvsengineering.com/en/dsg-gearbox/dq250/)
+
+**Starter**
+- **REPORTED (listing summaries)**: DSG starters 02E 911 023 J (6-speed automatic), 02E 911 023 S (Tiguan 2.0 TSI DQ500) and 02E 911 024 A (2.0 TDI). **No R32/3.2/3.6 DSG starter number was found.** — [eBay 275087204380](https://www.ebay.com/itm/275087204380)
+
+**Confirming the A3 has the 6-speed 0D9**
+- **VERIFIED (factory index)**: 0D9 code letters MTF, PPN, PUL, QSJ, MTE, PPM, PUH, QSE, PDZ, PPR, PUJ, QSF, NUT, PPP, PUP, QSM, PUN, QSL. The 2.0 TFSI 162 kW combinations are PUL, PZQ, QML, QMQ, QSJ, QSQ, RHN, RVS, RVW. The 7-speed alternatives in the same index are **0CW** (DQ200; e.g. PNA, PNB, MSP, NAR, PMZ …), **0GC** (DQ381) and **0DL** (DQ500, RS3). — [vwts.ru A3 8V](https://vwts.ru/audi_a3_8v.html)
+- **REPORTED (press/spec pages, search summaries)**:
+  - The 2016 US A3/S3 media kit lists six-speed S tronic across the line. — [Audi 2016 media kit](https://www.audiworld.com/wp-content/uploads/2018/12/2016-audi-a3-s3-media-kit.pdf)
+  - For 2017, FWD 2.0T A3s gained a seven-speed while the **2017 A3 2.0T quattro "continues with … a six-speed dual-clutch S tronic"**. — [Autotrader.ca 2017 A3/S3](https://www.autotrader.ca/editorial/expert-reviews/audi/a3/first-drive-2017-audi-a3-s3/); [JD Power 2017 A3](https://www.jdpower.com/cars/2017/audi/a3)
+  - **Conflict:** an Australian MY17 A3 quattro listing shows a 7-speed. — [carsales](https://www.carsales.com.au/cars/details/2017-audi-a3-s-line-auto-quattro-my17/SSE-AD-20641863/)
+
+### Inferences
+- **INFERRED, parts list (stock 3.2/3.6, A3/S3 8V quattro 0D9 kept):**
+
+  | # | Part | Number / source | Status |
+  |---|---|---|---|
+  | 1 | A3/S3 8V quattro 6-speed DQ250 **0D9** (DQ250-6A) with its own mechatronic, angle drive (PTU), axles, mount, selector | Code letters from the data sticker must be in the 0D9 list above | Keep (avoids P1701 pairing) |
+  | 2 | **4WD VR6 02E front case / bellhousing** | 02E 301 107 + unknown VR6/4WD suffix (4WD 02E301107R exists, engine unknown). Donor: Mk5 R32 DSG, A3 8P 3.2 quattro S tronic, TT 8J 3.2 S tronic, or CC/Passat 3.6 4Motion DSG. Not the NMS Passat 3.6 (FWD). | Read the cast number on the donor |
+  | 3 | Gearbox rebuild consumables | End-play ring set 02E 398 321; clutch cover (the clutch-pack listing says it must be renewed at every repair); seals; G052 182 DSG oil (7.2 L) | Per factory manual |
+  | 4 | **VR6 DSG DMF** | 022 105 266 AH (Audi 3.2) / 022 105 266 AK (VW 3.2/3.6), LuK 415 0755 09. Alternatives: RTMG 901-0680 (€1,351.60) or a custom DMF (TZ Engineering, as Dewain) if the OEM spline does not match the 0D9 hub | Bench-check the spline engagement |
+  | 5 | VR6 flywheel bolts | "genuine OEM flywheel bolts" (RTMG); number not sourced | Gap |
+  | 6 | Starter | Use the starter from the same VR6 DSG donor (it locates in the VR6 bell) | Number not sourced |
+  | 7 | TCU calibration | Dewain used an "APR tuned TCU". Stock power may need only coding for the new engine/torque messages | Unverified |
+  | 8 | Engine-side mount | Atlas 3.6 mount (TuneZilla on S3 8V; VWVortex poster on Mk7: "The Atlas VR mount bolts straight into the same location as my 2.0t") | REPORTED |
+
+- **INFERRED, why a 4WD donor matters:** the 4WD front case is a separate casting (Maktrans) and the angle drive (PTU) bolts to the gearbox. To keep the A3's PTU, prop shaft and Haldex 5, the VR6 front case must be the 4WD type, and its angle-drive interface must match the 0D9 4WD's. Dewain's car is a 4Motion Golf R, so the R32 4Motion front case appears to have accepted Mk7 internals with the Golf R's AWD hardware. That is not explicitly stated, so verify it on the bench.
+- **INFERRED, 3.2 vs 3.6 front case:** the vendors' common flywheel fitment (one DMF family for 3.2 and 3.6) and the shared VR6 bell for 24V/3.2/3.6 (Key question 6) suggest one VR6 02E bell pattern for 3.2 and 3.6. Suffixes may still differ by drivetrain (FWD/4WD) and build date. The R32/A3 3.2/TT 3.2 4WD cases are the only proven-donor type (Dewain).
+- **INFERRED, the DMF spline question:** the 02E 398 029 C clutch pack fits both 4-cylinder 02E and MQB 0D9 cars, so the 0D9's input hub is very likely the 02E spline. In that case the OEM VR6 02E DMF (022 105 266 AH/AK) should engage it. Dewain's custom DMF was needed for the DDKA crank (a DQ500-native engine), not necessarily for the 0D9 hub.
+- **INFERRED, how to confirm the A3 is a 0D9:** read the 3-letter gearbox code on the vehicle data sticker (spare-wheel well or service booklet) or on the gearbox case, and match it to the 0D9 code list. In VCDS module 02 the part number should begin 0D9 (the 0D9 vs 0GC/0CW prefix is the giveaway). The selector or cluster showing a 7th gear means it is 0GC or 0CW. US 2015–2017 A3 2.0T quattro and S3 are reported 6-speed.
+
+### Gaps
+- VR6 02E front-case part numbers (R32, A3 3.2, TT 3.2, CC/Passat 3.6 4Motion, NMS Passat 3.6 FWD) and whether 3.2 and 3.6 cases differ. Not in any source reached (no ETKA access; oemwolf has no 02E 301 107 page).
+- Whether Dewain's car kept the Golf R PTU and axles unchanged, and what TZ Engineering changed on the DMF. No details beyond the 2021 post.
+- VR6 DSG starter part number; VR6 DMF bolt part number and torque.
+- Whether K1/K2 packs or input shafts differ between 4-cylinder and VR6 DQ250 (no source; the clutch-pack fitment omits VR6).
+- The exact model year the US A3 2.0T quattro and S3 switched to the 7-speed DQ381 (0GC). Check each car's code.
+
+---
+
 ## Key question 1: DQ250. Can a VR6 02E clutch housing, clutch pack and drive plate be fitted to the A3/S3 8V's MQB 0D9?
 
 ### Takeaway
