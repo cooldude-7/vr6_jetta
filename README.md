@@ -40,6 +40,9 @@ convert the shifter, pedals and part of the coding.
   with an Atlas 3.6. Verdict: no precedent, no OEM parts set, custom AWD driveline and an
   ECU calibration nobody sells; ~CA$30,000–56,000 net for a car slower than a stock S3.
   Build the Jetta, or buy an S3 if AWD matters more than the VR6. Partly superseded by:
+- `research/a3-8p-2013-blv-swap-plan.md`: **current favourite.** A manual 2013 Audi A3 8P
+  (PQ35, a Golf underneath) + BLV + Mk4 24V 02M: Ninety4co's recipe on its own platform, with
+  A3 3.2 factory VR6 fitments. ~CA$3,650–9,850 net excluding the car; 2013 A3s ask CA$5–10k.
 - `reports/Audi A3 8V VR6 with stock gearbox.md`: follow-up after finding real 8V VR6 builds
   (TuneZilla's S3, Malaka's RS3). Stock-power plan: Atlas 3.6 + its own ECU on the A3 quattro's
   own 6-speed DSG via a 4WD VR6 DSG bellhousing (likely, unproven), ~CA$10,100–24,000 net
