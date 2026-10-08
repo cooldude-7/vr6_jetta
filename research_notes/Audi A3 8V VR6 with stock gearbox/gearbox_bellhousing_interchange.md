@@ -8,6 +8,62 @@ Access notes: oemwolf.com has no pages for 02E/0D9/0GC/0BH/0DL 301 107 (all retu
 
 ---
 
+## Verdict question: does a VR6 02E DQ250 front case / clutch housing (02E 301 107 xx, from Mk5 R32 / A3 8P 3.2 / TT 8J 3.2 / CC or Passat 3.6) fit the A3/S3 8V's MQB 0D9 gear case and internals?
+
+### Takeaway
+**Verdict: LIKELY YES (mechanically), with caveats. Not proven to catalogue level.**
+
+Evidence for:
+1. **One direct precedent.** Dewain (@dmods480) ran "an MKV R32 DSG bell housing on the factory MK7 DSG" in a Mk7 Golf R (VRSociety, 2021-05-19). It is a single second-hand report with no follow-up and no list of modifications.
+2. **MQB DQ250s carry 02E-numbered parts:**
+   - a Golf VII gearbox listed with references 02E 301 103 / 02E 301 107;
+   - MQB 0D9 mechatronics sold as 02E 927 770 AT/AN "DQ250 02E 0D9";
+   - rebuild kits and the 02E 398 029 C clutch pack listed for both 02E and 0D9/A3 8V quattro.
+3. **No source names a 0D9 301 107 / 0D9 301 103 part number.** Searches and ETKA-mirror probes found none, which is consistent with the 0D9 reusing 02E case numbers.
+
+Evidence against or open:
+- A Chinese source calls 02E and 0D9 separate part families with incompatible clutch series (02E 398 029 vs 0D9 398 029 A).
+- A machine-written catalogue page claims AWD DSG6 cases carry a 0D9 prefix.
+- The VR6 02E differs in output (star flange/tripod) and in its R32 4WD differential.
+
+So the bell face and gear-case joint very probably match, as Dewain's build suggests. What remains unproven for an **A3 quattro** is that the VR6 4WD front case's differential, output and angle-drive (PTU) features accept the 0D9's own diff and PTU. Settle it by a bench comparison of the two front cases before buying anything else (checks under Inferences).
+
+### Cited Findings
+- **REPORTED (VRSociety post, 2021-05-19, page opened)**: "MKV R32 DSG bell housing on the factory MK7 DSG", "APR tuned TCU", "custom TZ Engineering dual mass flywheel", DDKA 2.5T. Instagram @dmods480. Searches for "dmods480"/"Dewain" found no later update. — [VRSociety](https://vrsociety.tumblr.com/post/651662812635152384/oem-25l-vr6-turbo-in-a-mk7-golf-r-dewain-is)
+- **VERIFIED (vendor)**: HPA's DQ381 program needs a 2018–2019 Golf R. A Mk7 Golf R with an R32-compatible DSG is therefore an earlier 6-speed DQ250 car. — [HPA VR550T](https://www.hpamotorsports.com/pages/hpa-vr550t-2-5l-vr6-program-for-golf-r)
+- **REPORTED (salvage listing, search summary)**: "Gearbox volkswagen golf vii … 02e301103 02e301107". — [ecooparts Golf VII](https://ecooparts.com/en/used-auto-part/gearbox/volkswagen/golf-vii-lim/17733787_gearbox-volkswagen-golf-vii-lim-sport-bluemotion.html)
+- **REPORTED (vendor titles, search summaries)**:
+  - "DQ250 02E 0D9 **02E927770AN** Transmission Mechatronic" and "**02E927770AT** DQ250 02E 0D9 Transmission Mechatronic". — [Sheng Hai AN](https://www.shenghaiautoparts.com/shop/tcu/dq250-02e-0d9-02e927770an-transmission-mechatronic/); [Sheng Hai AT](https://www.shenghaiautoparts.com/shop/tcu/02e927770at-dq250-02e-0d9-transmission-mechatronic/)
+  - The AT suffix replaces AL "used on immobilized units in MQB cars with UDS diagnostics". — [Tosen guide](https://www.tosenparts.com/dq250-vs-dq200-mechatronic/); [MHH "How to determine DQ250 versions (cxx,exx,fxx,mqb)"](https://mhhauto.com/Thread-How-to-determine-DQ250-versions-cxx-exx-fxx-mqb)
+  - Rebuild kit "02E, DQ250, 0D9 (DSG) (6-Speed, FWD) Automatic Transmission Overhaul Repair Kit". — [Cobra Transmission](https://cobratransmission.com/dsg-02e-overhaul-kit-w-o-pistons-3023001-1)
+- **VERIFIED (vendor fitment)**: clutch pack 02E 398 029 C lists "Audi A3 8V, Quattro: 2.0T" and Golf VII. — [vagparts](https://vagparts.com.au/products/02e398029c-clutch-service-kit)
+- **REPORTED (VCDS wiki table, search summary)**: 02E and 0D9 are both listed as Borg-Warner 6-speed wet-clutch units, 350 Nm. 02E from 2003 (A3 8P, TT, Golf, Passat); 0D9 from 2013 (Golf 7, A3 8V, Passat from 2015). — [VCDS wiki "Getriebe"](https://wiki-online.vcds.de/de/Dokumentation/Getriebe)
+- **Conflict (REPORTED, Chinese article via search summary)**: 02E and 0D9 are successive generations whose base numbers differ. "Most parts don't carry over"; clutch series 02E398029 vs **0D9398029A** "not compatible". The search summary adds that the MQB mounting interface, flywheel and clutch housing "were all new". It is unclear whether the article says this or the summariser inferred it; treat it as unverified. — [zhihu](https://www.zhihu.com/tardis/jm/art/2074298562670761525)
+- **Conflict (REPORTED, machine-written catalogue text)**: "The 4motion, 4x4, and Quattro all-wheel-drive (AWD) DSG6 installations … use a distinct housing assembly carrying the 0D9 parts-code prefix". This contradicts Maktrans's "Front case 4WD 02E DQ250 … 02E301107 / 02E301107R" (VERIFIED). — [Autoparts-24](https://www.autoparts-24.com/oem/02E-301-107/); [maktrans](https://maktrans.net/02E4WD107)
+- **REPORTED (search summary of Super-Parts)**: 02E301107 front case listed for transmission codes "SYJ, SFT, SFU, RLN" (code family not identified). — [Super-Parts](https://www.super-parts.eu/02e301107-gearbox-housing-dq250-02e-dsg-6/)
+- **VERIFIED (Ross-Tech)**: replacing the 0D9 "transmission or mechatronics unit will result in P1701". Keeping the A3's own 0D9 mechatronic and moving it onto the VR6 front case avoids a new-module pairing (INFERRED). — [Ross-Tech 0D9](https://wiki.ross-tech.com/wiki/index.php/6-Speed_Direct_Shift_Gearbox_(DSG/0D9))
+- **Searched, nothing found**: "0D9301107", "0D9 301 107", "0D9301103", "0D9 301 103". zzap.ru, emex.ru and partsouq returned bot challenges. exist.ru and autodoc.ru returned no data without JavaScript. The scribd 0D9 manual did not load. No 0D9 rebuild using 02E case parts was documented.
+
+### Inferences
+- **INFERRED, verdict logic:** the R32 bell on a Mk7 DSG (Dewain) is the decisive data point for the bell face and the gear-case joint. Shared 02E case, mechatronic and clutch numbering on MQB units explains why it worked. The A3 quattro case adds the 4WD angle-drive interface, which Dewain's 4Motion Golf R also had, but the post does not say whether he kept the Golf R PTU unchanged.
+- **INFERRED, physical checks that settle it (in order):**
+  1. **Read the cast or stamped numbers** on the A3's 0D9 front case and gear housing. If they read 02E 301 107 xx / 02E 301 103 xx, the case family is shared. Compare the suffix with the VR6 donor's front case.
+  2. **Joint face:** lay the VR6 front case on the 0D9 gear housing (or compare photos and measurements). Check bolt-hole count and positions, dowel positions, and the oil-gallery ports to the mechatronic and clutch-oil feed.
+  3. **Bearing bores:** compare bore diameters and positions for input-shaft/clutch support, output shafts 1 and 2, reverse shaft, differential bearings, and selector/parking-lock shafts. The front case carries bearing bores (Maktrans "spun bearing bore" remanufacturing).
+  4. **4WD features:** compare the angle-drive (PTU) mounting face, spigot and bolt pattern, and the right-hand output bore and seal, between the VR6 4WD case and the 0D9 4WD case. Confirm the 0D9 differential (with its MQB flanges) fits the VR6 case's diff bores and seals. That is where the 6-cylinder star-flange/tripod output and the R32-only diff (Quaife exclusion) could bite.
+  5. **Flywheel:** try-fit the VR6 02E DMF (022 105 266 AH/AK) on the 0D9 clutch input hub. Check spline engagement and axial depth. Dewain needed a custom DMF, but with a DDKA crank.
+  6. **Clutch cover and oil-pump drive:** confirm the 0D9 clutch cover (renewed at every repair) and oil-pump drive seat in the VR6 front case.
+  7. **Starter:** the starter boss is on the VR6 front case, so use the donor's VR6 DSG starter and check ring-gear mesh with the DMF.
+  8. **Re-shim and re-adapt:** re-shim with 02E 398 321 rings and set K1/K2 end play per the 0D9 manual. Run clutch adaptation (Ross-Tech 0D9 basic settings).
+- **INFERRED, best donor:** a 4WD VR6 DSG front case from a Mk5 R32 DSG or A3 8P 3.2 quattro S tronic, the same family Dewain used (MKV R32). TT 8J 3.2 S tronic is the third choice. CC/Passat 3.6 only if confirmed 4Motion DSG. Not the NMS Passat 3.6 (FWD).
+
+### Gaps
+- No catalogue (ETKA) confirmation of the 0D9 front-case number, or of which 02E 301 107 suffixes are VR6 and which are 0D9.
+- No detail of what Dewain modified, and no later update.
+- No documented 0D9 rebuild that used 02E case parts.
+
+---
+
 ## Headline question: the exact parts for a stock 3.2/3.6 VR6 on the A3/S3 8V quattro's own 6-speed DQ250 (0D9), via a VR6 02E bellhousing (front case) plus a VR6 DSG dual-mass flywheel
 
 ### Takeaway
@@ -103,7 +159,7 @@ The open risks, none resolved by any source:
 ## Key question 1: DQ250. Can a VR6 02E clutch housing, clutch pack and drive plate be fitted to the A3/S3 8V's MQB 0D9?
 
 ### Takeaway
-Nobody has documented it, and it is not a bolt-on job. The DQ250 case is two halves: a front case / clutch housing (bellhousing) **02E 301 107** and a rear gearbox housing **02E 301 103**. The front case carries shaft and differential bearing bores, so swapping it means fully splitting and re-shimming the gearbox. It is not like changing a bolt-on adapter. Evidence suggests the MQB 0D9 reuses 02E-numbered cases and the 02E clutch pack. The VR6 02E differs in more than the bell, though: its bolt pattern or angle, its star-flange/tripod outputs, and (in 4WD form) its differential. The MQB 0D9 has its own mechatronic generation. Torque is also against it: the DQ250 is rated at 350 Nm "depending on engine", which a naturally aspirated 3.6 already reaches.
+It is not a bolt-on job. One precedent exists: Dewain's Mk7 Golf R ran an MKV R32 DSG bell housing on the factory Mk7 DSG (2021). See the Verdict question and Headline question above. The DQ250 case is two halves: a front case / clutch housing (bellhousing) **02E 301 107** and a rear gearbox housing **02E 301 103**. The front case carries shaft and differential bearing bores, so swapping it means fully splitting and re-shimming the gearbox. It is not like changing a bolt-on adapter. Evidence suggests the MQB 0D9 reuses 02E-numbered cases and the 02E clutch pack. The VR6 02E differs in more than the bell, though: its bolt pattern or angle, its star-flange/tripod outputs, and (in 4WD form) its differential. The MQB 0D9 has its own mechatronic generation. Torque is also against it: the DQ250 is rated at 350 Nm "depending on engine", which a naturally aspirated 3.6 already reaches.
 
 ### Cited Findings
 - **VERIFIED (factory manual index, A3 8V)**: "Gearbox 0D9 – DSG Workshop Manual" for A3 8V1/8VA/8VS/8V7, gearbox code letters **MTF, PPN, PUL, QSJ, MTE, PPM, PUH, QSE, PDZ, PPR, PUJ, QSF, NUT, PPP, PUP, QSM, PUN, QSL**. A second "Direct Shift Gearbox 0D9" manual (ed. 09.2015) gives engine combinations: **PUL, PZQ, QML, QMQ, QSJ, QSQ, RHN, RVS, RVW** with 2.0 L 162 kW TFSI; RVS with 169 kW; PUL, PZQ, QMQ, QSJ, RVS with 155 kW; PZN, PUG, QMM, QSD with 110 kW TDI. It covers A3 8V1/8VA/8VS/8V7 (2013–) and 8VK/8VF/8VE/8VM (2017–). Both manuals' contents read "00 Technical data, 30 Clutch, 34 Controls, housing, 35 Gears, shafts, 39 Final drive". — [vwts.ru A3 8V index](https://vwts.ru/audi_a3_8v.html)
@@ -149,7 +205,7 @@ Nobody has documented it, and it is not a bolt-on job. The DQ250 case is two hal
 - No ETKA listing of the 02E 301 107 suffixes by engine (VR6 vs 4-cylinder, FWD vs 4WD), and no 0D9 301 107 number found. oemwolf has none of them.
 - No dimensional comparison of the 02E vs 0D9 front case, and no confirmation that the 0D9 input-hub spline equals the 02E's (the clutch-pack evidence conflicts).
 - 02E VR6 gearbox code letters for the R32 / A3 3.2 / TT 3.2 (not in the opened manual index).
-- No VR6-02E-bell-on-0D9 build, successful or failed, was found anywhere.
+- Beyond Dewain's one-line 2021 report (R32 DSG bell on a Mk7 Golf R DSG), no VR6-02E-bell-on-0D9 build with parts and modifications was found.
 - No 0D9 code letters for the 213 kW US S3 were captured from the index (the snippet showed 155/162/169 kW rows only).
 
 ---
@@ -362,7 +418,7 @@ The 24V 2.8, 3.2 (BUB/CBRA/BDB/BMJ) and 3.6 (BLV/BWS/CDVB/CDVC) are treated by e
    - PQ35 mechatronic and CAN;
    - a 6-cylinder star-flange output;
    - a PQ35 angle drive and an early-generation Haldex prop shaft, with no Haldex 5 match.
-   The TT 3.2 S tronic is the most logical **donor of a VR6 4WD 02E front case (02E 301 107, suffix unknown)** for anyone attempting the VR6-bell-on-0D9 hybrid, but no one has documented that hybrid.
+   The TT 3.2 S tronic is a logical **donor of a VR6 4WD 02E front case (02E 301 107, suffix unknown)** for the VR6-bell-on-0D9 hybrid. The only documented hybrid (Dewain, Mk7 Golf R, 2021) used an MKV R32 DSG bell instead.
 2. **TT 8S (2015/16–2023) and TT RS 8S:** the same families as the A3/S3/RS3: 0D9 DQ250 / 0GC DQ381 (TT/TTS), **0DL DQ500** (TT RS), and the 02Q/0FB manual. All have 4/5-cylinder bells and no VR6 bell. The TT RS 8S DQ500 is the gearbox TuneZilla and HGP adapted.
 
 ### Cited Findings
@@ -395,7 +451,7 @@ The 24V 2.8, 3.2 (BUB/CBRA/BDB/BMJ) and 3.6 (BLV/BWS/CDVB/CDVC) are treated by e
   - Torque: 350 Nm, at the stock-3.6 limit.
   - Mounts: unknown vs the 8V.
   It ranks below the RS3 DQ500 route on every count except bell fit.
-- **INFERRED, the TT 3.2 as a bell donor:** it is the only North American source of a **4WD VR6 02E front case** (the US R32 Mk5 is the other). It is the right donor for an experimental VR6-02E-front-case-on-0D9 hybrid, with all the Key question 1 caveats. A whole TT 3.2 S tronic plus a used 0D9 would both have to be bought.
+- **INFERRED, the TT 3.2 as a bell donor:** it is the only North American source of a **4WD VR6 02E front case** (the US R32 Mk5 is the other). It is a suitable donor for the VR6-02E-front-case-on-0D9 hybrid, with all the Key question 1 caveats. Dewain's Mk7 Golf R used an MKV R32 DSG bell on the factory Mk7 DSG, so the R32 is a proven donor type. A whole TT 3.2 S tronic plus a used 0D9 would both have to be bought.
 - **INFERRED, TT 8J 3.2 manual:** whichever code it is (02M per FCP, or a 4Motion 02Q), it is a VR6-bell 4Motion manual and the same "whole VR6 manual" option described in the background file. The 2008–09 TT 3.2 is the newest NA source of one.
 - **INFERRED, TT 8S:** no VR6 path of its own. Its TT RS 0DL is interchangeable in purpose with the RS3 8V 0DL as the adapter base.
 
