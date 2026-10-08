@@ -97,3 +97,36 @@ Not in his total: USP downpipes (traded, ~800), BFI mounts (sponsored, ~330–67
 
 The engine and gearbox are the cheap part (~1,000 together). The rebuild parts, the newer
 GLI, and the software and paperwork are the cost. Tell the insurer before the first drive.
+
+### Lean build: target CA$5,000–6,000 (excluding the car)
+
+Updated 2026-10-08. The table above prices a full Ninety4co-level rebuild at retail plus a bought
+tune. Built lean (whole junkyard engine with its harness/ECU/fuse box, rebuild only what can't be
+reached later, self-tuned with tools already owned), the swap lands near the target:
+
+| Item (manual GLI + BLV + Mk4 24V 02M) | Low | High |
+| --- | ---: | ---: |
+| Junkyard BLV with harness, ECU, alternator, A/C compressor, intake, cats | 500 | 2,000 |
+| Junkyard B6 "high" fuse box (1K0 937 124 K) with harness tail, EVAP bits, A/C suction line | 100 | 400 |
+| Used Mk4 24V 02M with starter | 550 | 1,400 |
+| Timing set, one-piece oil-pump sprocket + bolt, water pump, thermostat, gaskets, seals | 700 | 1,500 |
+| Rod and main bearings | 150 | 400 |
+| South Bend K70287 Stage 2 Daily clutch + single-mass flywheel (VR6 10-bolt) | 950 | 1,100 |
+| Slave cylinder (0A5 141 671 E/F), seals, gear oil | 150 | 300 |
+| Mounts 1K0 199 262 AR + 1K0 199 555 AP | 450 | 600 |
+| Radiator 5K0 121 251 H (CSF 3777) | 250 | 350 |
+| Cooling hoses + coolant; bottle OEM or Gray Fab | 300 | 1,300 |
+| Custom A/C discharge line + recharge | 200 | 500 |
+| Fuel filter/regulator 6Q0 201 051 J (J538 usually comes with the engine) | 50 | 300 |
+| Exhaust: junkyard R32/Eos downpipes + local mid-pipe, up to the USP kit | 300 | 1,200 |
+| erWin diagrams (both VINs) + pins, terminals, loom | 150 | 400 |
+| Tune (self) | 0 | 0 |
+| Fluids, hardware, misc | 300 | 600 |
+| **Gross** | **~5,100** | **~12,400** |
+| Sell the GLI's 2.0T engine + 02Q | −2,500 | −4,500 |
+| **Net, excluding the car** | **~2,600** | **~7,900** |
+
+To stay at CA$5–6k: buy the engine whole with its harness, ECU and fuse box attached (Ninety4co's
+was US$300 at a U-Pull); rebuild only the timing, bearings, water pump and gaskets; skip cosmetic
+work; sell the GLI's 2.0T and 02Q as a running pair. The clutch is the one part that must be
+aftermarket (a stock 24V clutch won't hold the 3.6).
